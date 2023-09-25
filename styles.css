@@ -1,0 +1,207 @@
+* {
+  box-sizing:border-box;
+  margin: 0;
+  padding: 0;
+  font-family:"Poppins", sans-serif;
+  scroll-behavior: smooth;
+}
+body{
+  min-height: 100vh;
+  overflow-x: hidden;
+  background:(#89cff0)
+}
+header{
+  position: absolute;
+  top: 0;
+  Left: 0;
+  width: 100%;
+  padding: 30px 100px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  font-family:"Poppins", sans-serif;
+  z-index: 1000;
+}
+p{
+text-decoration:none;
+Font-weight:500;
+font-family:"Poppins", sans-serif;
+color:#000;
+}
+.MedVoyage.png{
+margin-top:17px;
+}
+header ul{
+display:flex;
+justify-content: center;
+align-items: center;
+color:#000000;
+font-weight: 500;
+gap: 30px
+}
+header ul li{
+list-style: none;
+margin-left: 20px;
+}
+header ul li a{
+text-decoration: none;
+padding: 6px 15px;
+color: #000;
+transition: all 0.3s ease 0s;
+}
+header ul li a:hover{
+color:#5271ff;
+}
+section{
+position: relative;
+width:100%;
+height: 100vh;
+padding: 300px;
+padding-top: 10px;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+section::before{
+content:'';
+position: absolute;
+bottom:0;
+width:100%;
+height:100px;
+background: linear-gradient(to top,#fff,transparent);
+z-index:1000;
+}
+section img{
+position:absolute;
+top:0;
+left:0;
+width:100%;
+height:100%;
+object-fit: cover;
+pointer-events: none;
+}
+#sun{
+mix-blend-mode:screen;
+}
+#text{
+position: absolute;
+color: #000;
+white-space: nowrap;
+font-size: 2.5vw;
+transition: all 0.3s ease 0s color= #000;
+z-index: 9;
+}
+#text:hover{
+transition: all 0.3s ease 0s;
+color:#5271ff;
+transform: scale(1.2);
+}
+#btn{
+text-decoration:none;
+display: inline-block;
+padding:8px 30px;
+border-radius: 40px;
+background: #000;
+color:#fff;
+font-size:1.2em;
+font-weight: 700;
+z-index: 9;
+transform: translateY(100px);
+transition: all 0.3s ease 0s;
+}
+#btn:hover{
+background-color: #5271ff;
+}
+#contacts-btn {
+color: white;
+font-family:"Poppins", sans-serif;
+font-weight: 700;
+transition: all 0.3s ease 0s;
+}
+button {
+padding: 10px 25px;
+background-color:#000000;
+border: none;
+border-radius: 100px;
+cursor: pointer;
+transition: all 0.3s ease 0s;
+font-style: color= #FFFFFF;
+font-size: large;
+}
+button:hover {
+background-color: #5271ff;
+transform: scale(1.2);
+}
+.chatbot{
+position:relative;
+background: linear-gradient(#fff,#80D7E8);
+padding: 400px;
+justify-content: center;
+align-items: center;
+
+}
+.chatbot h2{
+color:#5271ff;
+display:flex;
+justify-content: center;
+align-items: center;
+font-size: 50px;
+font-weight: 700
+}
+#chatBox{
+display:flex;
+justify-content: center;
+align-items: center;
+margin-top: 15px;
+font-weight: 400;
+font-size: 20px;
+
+}
+
+#but{
+display:flex;
+justify-content: center;
+align-items:center;
+margin-bottom:30px;
+margin: 20px;
+padding: 20px;
+border-radius: 100px;
+Font-size: 50px
+}
+#no{
+color: white;
+font-family:"Poppins", sans-serif; 
+font-weight: 700;
+border-radius: 100px;
+transition: all 0.3s ease 0s;
+margin: 10px;
+padding: 10px;
+justify-content: center;
+align-items: center;
+}
+#yes{
+color: white;
+font-family:"Poppins", sans-serif;
+font-weight: 700;
+/* font-size:50px; */
+margin:10x;
+padding: 10px;
+transition: all 0.3s ease 0s;
+justify-content: center;
+align-items: center;
+}
+
+.border{
+border-style: solid;
+border-color: black;
+border-width: 2px;
+}
+.Creators{
+display: flex;
+flex-direction: row;
+justify-content: space-around;
+}
+.snapshot{
+height: 25px;
+width: 25px;
+}
