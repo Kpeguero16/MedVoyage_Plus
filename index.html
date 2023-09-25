@@ -69,8 +69,10 @@
 
       window.addEventListener('scroll', function(){
         let value = window.scrollY;
-        layer.style.left = value*1.5+'px';
+        layer.style.left = value*1.0+'px';
         header.style.top = value*.5+'px';
+        sun.style.top = value*.3+'px';
+        sun.style.left = value*.4+'px';
 
       })
     </script>
