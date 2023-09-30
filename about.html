@@ -8,72 +8,47 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
 </head>
 <body>
-    <header>
-        <a href="#" class="logo"><img src="Images/MedVoyage.png"></a>
-        <ul>
-          <li><a href="index.html">Homepage</a></li>
-          <li><a href="#chatBox">Symptom Finder</a></li>
-          <li><a href="about.html">About Us</a></li>
-          <li><a href="#"><button id="contacts-btn">Contact Us</button></a></li>
-        </ul>
-      </header>
+  <header>
+    <a href="#" class="logo"><img src="Images/MedVoyage.png"></a>
+    <ul>
+      <li><a href="index.html">Homepage</a></li>
+      <li><a href="index.html">Symptom Navigator</a></li>
+      <li><a href="about.html">About Us</a></li>
+      <li><a href="#"><button id="contacts-btn">Contact Us</button></a></li>
+    </ul>
+  </header>
+  <section>
+    <img src="Images/background.png" id="background">
+    <img src="Images/sun.png" id="sun">
+    <img src="Images/layer.png" id="layer">
+    <h2 id="text">Welcome to MedVoyage, Your Journey to Health Begins Here.</h2>
+  </section>
+  <div class="sec">
+    <p>At MedVoyage, we are dedicated to revolutionizing the way you navigate healthcare.</p>
+    <p>Our mission is to empower individuals with the knowledge and insights they need to take control of their well-being.</p>
+    <p>With a crew of dedicated medical experts and state-of-the-art technology,</p>
+    <p>we provide accurate and reliable medicinal diagnoses right from the comfort of your home.</p>
+    <p>Set sail on your health journey with us today!</p>
+  </div>
 
-      
-      <section>
-        <img src="Images/background.png" id="background">
-        <img src="Images/sun.png" id="sun">
-        <img src="Images/layer.png" id="layer">
-      </section>
-
-      <section>
-        <div class="Creators">
-            <div id="Khalil"></div>
-                <div class="border">
-                    <h1>Khalil Peguero</h1>
-                </div>
-                <div class="snapshot">
-                    <img class="snapshot" src="Images/Khalil.jpg" alt="Picture of Khalil Peguero">
-                </div>
-            <div id="Diego"></div>
-                <div class="border">
-                    <h1>Diego Martinez</h1>
-                </div>
-                <div>
-
-                </div>
-            <div id="Chris"></div>
-                <div class="border">
-                    <h1>Christian Vera-Rojas</h1>
-                </div>
-                <div>
-
-                </div>
-            <div id="Matt"></div>
-                <div class="border">
-                    <h1>Matthew Fortes</h1>
-                </div>
-                <div>
-
-                </div>
-        </div>
-      </section>
+  <script src="script.js"></script>
+  <script>
+    let = document.getElementById('background');
+    let sun = document.getElementById('sun');
+    let = document.getElementById('layer');
+    let text = document.getElementById('text');
+    let btn = document.getElementById('btn');
+    let header = document.querySelector('header');
 
 
-      <script>
-        let = document.getElementById('background');
-        let sun = document.getElementById('sun');
-        let = document.getElementById('layer');
-        let text = document.getElementById('text');
-        let btn = document.getElementById('btn');
-        let header = document.querySelector('header');
-  
-  
-        window.addEventListener('scroll', function(){
-          let value = window.scrollY;
-          layer.style.left = value*1.5+'px';
-          header.style.top = value*.5+'px';
-  
-        })
-      </script>
-</body>
+    window.addEventListener('scroll', function(){
+      let value = window.scrollY;
+      layer.style.left = value*1.0+'px';
+      header.style.top = value*.5+'px';
+      sun.style.top = value*.5+'px';
+      sun.style.left = value*.4+'px';
+
+    })
+  </script>
+</body>     
 </html>
