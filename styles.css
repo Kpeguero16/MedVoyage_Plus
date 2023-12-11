@@ -90,7 +90,7 @@ position: absolute;
 color: #000;
 white-space: nowrap;
 font-size: 2.5vw;
-transition: all 5.3s ease 0s color= #000;
+transition: all 0.3s ease 0s color= #000;
 z-index: 9;
 }
 #text:hover{
