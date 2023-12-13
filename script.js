@@ -98,3 +98,12 @@ function update(answer) {
 }
 
 textBox.innerHTML = "<p>" + currentNode.question + "</p>";
+
+// Collect information from the user to feed into the ChatGPT API
+const user = {
+    age: '',
+    sex: '',
+    symptoms: ''
+}
+// ChatGPT prompt
+var prompt = ''
