@@ -47,21 +47,18 @@
       <a href="#chatBox" id="btn">Earn your peace of mind today</a>
     </section>
     <div href="chatBox" class="chatbot">
-      <h2> What are your symptoms? </h2>
-      <div id="chatBox">
-        <p> Have you been experiencing flu-like symptoms? </p>
-      </div>
+      <h2 id="display-text"> Symptom Navigator </h2>
+      <p> Let's begin diagnosing your symptoms... </p>  
       <div id="but">
-        <button id="no" onclick="update('no')">No</button>
-        <button id="yes" onclick="update('yes')">Yes</button>
+        <button id="Next" onclick="changeText()">Next</button>
+        <script src="navigator.js"></script>
       </div>
     </div>
-  
-    <script src="script.js"></script>
+    
     <script>
-      let = document.getElementById('background');
+      let background = document.getElementById('background');
       let sun = document.getElementById('sun');
-      let = document.getElementById('layer');
+      let layer = document.getElementById('layer');
       let text = document.getElementById('text');
       let btn = document.getElementById('btn');
       let header = document.querySelector('header');

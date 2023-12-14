@@ -23,12 +23,6 @@ header{
   font-family:"Poppins", sans-serif;
   z-index: 1000;
 }
-p{
-text-decoration:none;
-Font-weight:500;
-font-family:"Poppins", sans-serif;
-color:#000;
-}
 .MedVoyage.png{
 margin-top:17px;
 }
@@ -147,16 +141,24 @@ color:#5271ff;
 display:flex;
 justify-content: center;
 align-items: center;
-font-size: 50px;
+font-size: 70px;
 font-weight: 700
+}
+.chatbot p{
+  display:flex;
+  justify-content: center; 
+  align-items: center;
+  margin-top: 30px;
+  font-weight: 500;
+  font-size: 30px;
 }
 #chatBox{
 display:flex;
-justify-content: center;
+justify-content: center; 
 align-items: center;
-margin-top: 15px;
+margin-top: 30px;
 font-weight: 400;
-font-size: 20px;
+font-size: 30px;
 
 }
 
@@ -164,30 +166,22 @@ font-size: 20px;
 display:flex;
 justify-content: center;
 align-items:center;
-margin-bottom:30px;
 margin: 20px;
 padding: 20px;
 border-radius: 100px;
 Font-size: 50px
 }
-#no{
-color: white;
-font-family:"Poppins", sans-serif; 
-font-weight: 700;
-border-radius: 100px;
-transition: all 0.3s ease 0s;
-margin: 10px;
-padding: 10px;
-justify-content: center;
-align-items: center;
-}
-#yes{
+
+#Next{
 color: white;
 font-family:"Poppins", sans-serif;
 font-weight: 700;
-/* font-size:50px; */
+font-size:28px; 
+margin-top:30px;
 margin:10x;
 padding: 10px;
+padding-right:50px;
+padding-left:50px;
 transition: all 0.3s ease 0s;
 justify-content: center;
 align-items: center;
